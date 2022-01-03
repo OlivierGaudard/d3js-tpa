@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script type="text/javascript" src="groupBarChart.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <!-- <script type="text/javascript" src="treeMap/treeMap.js"></script> -->
+
+</head>
+<body>
+
+
+<div class="topnav">
+    <a class="active" href="../groupBarChart/groupBarChart.html">groupBarChart</a>
+    <a href="../treeMap/treeMap.html">treeMap</a>
+    <a href="../circlePacking/circlePacking.html">circlePacking</a>
+  </div>
+
+<div style="text-align: center; margin-top: 1%;">
+  <button id="btnAge" onclick="groupBarChart(groupDataAgePercent,groupDataAgeCount, percent)">Par age (%)</button>
+  <button id="btnSitu" onclick="groupBarChart(groupDataSituationFamilialePercent,groupDataSituationFamilialeCount, percent)">Par situation familiale (%)</button>
+  <button id="btnEnfants" onclick="groupBarChart(groupDataNbEnfantsAChargePercent, groupDataNbEnfantsAChargeCount, percent)">Par enfants a charge (%) </button>
+  <button id="btnPercent" onclick="percentCount(percent)">Count</button>
+</div>
+
+<div id="groupBarChart"></div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
